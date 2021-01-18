@@ -43,7 +43,7 @@ utils.set_seed(10)
 p={}
 p['datasets_path']='./dataset/'
 p['train_datasets']=[p['datasets_path']+'TrainingSet/NJU2K_TRAIN',p['datasets_path']+'TrainingSet/NLPR_TRAIN']
-p['val_datasets']=[p['datasets_path']+'NJU2K_TEST']
+p['val_datasets']=[p['datasets_path']+'TestingSet/NJU2K_TEST']
 
 p['gpu_ids']=list(range(torch.cuda.device_count()))
 p['start_epoch']=0
